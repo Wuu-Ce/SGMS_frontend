@@ -7,3 +7,10 @@ not-found: Notfound
 nesting:
   sir: man
   lady: lady
+
+# user-hander 组件
+header:
+  title: 'Students Grad Management System'
+  userInfo: 'user info'
+  logout: 'logout'
+  switchLanguage: 'switch to Chinese'

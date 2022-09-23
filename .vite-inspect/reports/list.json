@@ -1,0 +1,484 @@
+{
+  "root": "D:/Web/gms_forntend",
+  "modules": [
+    {
+      "id": "/@windicss/devtools",
+      "deps": [],
+      "plugins": [
+        "vite-plugin-windicss:devtools",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "/@windicss/mock-classes",
+      "deps": [],
+      "plugins": [
+        "vite-plugin-windicss:devtools",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "/@windicss/windi-base.css",
+      "deps": [],
+      "plugins": [
+        "vite-plugin-windicss:entry",
+        "vite:css",
+        "vite-plugin-use-modules",
+        "vite:css-post",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "/@windicss/windi-components.css",
+      "deps": [],
+      "plugins": [
+        "vite-plugin-windicss:entry",
+        "vite:css",
+        "vite-plugin-use-modules",
+        "vite:css-post",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "/@windicss/windi-utilities.css",
+      "deps": [],
+      "plugins": [
+        "vite-plugin-windicss:entry",
+        "vite:css",
+        "vite-plugin-use-modules",
+        "vite:css-post",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "D:/Web/gms_forntend/locales/en.yml",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite-plugin-vue-i18n",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/locales/zh-CN.yml",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite-plugin-vue-i18n",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/mock/test.ts",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite:esbuild",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/node_modules/.pnpm/vite@3.1.0/node_modules/vite/dist/client/client.mjs",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite-plugin-use-modules",
+        "vite:client-inject",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/node_modules/.pnpm/vite@3.1.0/node_modules/vite/dist/client/env.mjs",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite-plugin-use-modules",
+        "vite:client-inject",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/node_modules/.vite/deps/@vueuse_core.js?v=d80d407e",
+      "deps": [],
+      "plugins": [
+        "vite:optimized-deps",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "D:/Web/gms_forntend/node_modules/.vite/deps/chunk-2ST5CNOS.js?v=b1656508",
+      "deps": [],
+      "plugins": [
+        "vite:optimized-deps",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "D:/Web/gms_forntend/node_modules/.vite/deps/chunk-3JTTX4QD.js?v=b1656508",
+      "deps": [],
+      "plugins": [
+        "vite:optimized-deps",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "D:/Web/gms_forntend/node_modules/.vite/deps/chunk-AEY67JW3.js?v=b1656508",
+      "deps": [],
+      "plugins": [
+        "vite:optimized-deps",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "D:/Web/gms_forntend/node_modules/.vite/deps/chunk-TWLJ45QX.js?v=b1656508",
+      "deps": [],
+      "plugins": [
+        "vite:optimized-deps",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "D:/Web/gms_forntend/node_modules/.vite/deps/chunk-XYHHE7SP.js?v=b1656508",
+      "deps": [],
+      "plugins": [
+        "vite:optimized-deps",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "D:/Web/gms_forntend/node_modules/.vite/deps/mockjs.js?v=ec8d21eb",
+      "deps": [],
+      "plugins": [
+        "vite:optimized-deps",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "D:/Web/gms_forntend/node_modules/.vite/deps/nprogress.js?v=1a413d49",
+      "deps": [],
+      "plugins": [
+        "vite:optimized-deps",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "D:/Web/gms_forntend/node_modules/.vite/deps/pinia-plugin-persistedstate.js?v=9bf8341e",
+      "deps": [],
+      "plugins": [
+        "vite:optimized-deps",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "D:/Web/gms_forntend/node_modules/.vite/deps/pinia.js?v=66ece3de",
+      "deps": [],
+      "plugins": [
+        "vite:optimized-deps",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "D:/Web/gms_forntend/node_modules/.vite/deps/vite-plugin-mock_es_createProdMockServer.js?v=ce57fdae",
+      "deps": [],
+      "plugins": [
+        "vite:optimized-deps",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "D:/Web/gms_forntend/node_modules/.vite/deps/vue-i18n.js?v=50f27fae",
+      "deps": [],
+      "plugins": [
+        "vite:optimized-deps",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "D:/Web/gms_forntend/node_modules/.vite/deps/vue-router.js?v=1728f8c8",
+      "deps": [],
+      "plugins": [
+        "vite:optimized-deps",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "D:/Web/gms_forntend/node_modules/.vite/deps/vue.js?v=df3a7dac",
+      "deps": [],
+      "plugins": [
+        "vite:optimized-deps",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "D:/Web/gms_forntend/presets/shared/mock.ts",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite:esbuild",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/src/App.vue",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite-plugin-use-modules",
+        "vite:vue",
+        "unplugin-vue-components",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/src/App.vue?vue&type=style&index=0&lang.css",
+      "deps": [],
+      "plugins": [
+        "vite:vue",
+        "vite:css",
+        "vite-plugin-use-modules",
+        "vite:vue",
+        "vite-plugin-windicss:css",
+        "vite:css-post",
+        "unplugin-vue-components",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "D:/Web/gms_forntend/src/components/counter.vue",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "unplugin-vue-define-options",
+        "vite-plugin-use-modules",
+        "vite:vue",
+        "unplugin-vue-components",
+        "unplugin-auto-import",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/src/composables/useDarks.ts",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite:esbuild",
+        "vite-plugin-use-modules",
+        "unplugin-auto-import",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/src/composables/useLanguage.ts",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite:esbuild",
+        "vite-plugin-use-modules",
+        "unplugin-auto-import",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/src/layouts/default.vue",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite-plugin-use-modules",
+        "vite:vue",
+        "unplugin-vue-components",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/src/main.ts",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite:esbuild",
+        "vite-plugin-use-modules",
+        "unplugin-auto-import",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/src/modules/i18n.ts",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite:esbuild",
+        "vite-plugin-use-modules",
+        "vite:import-glob",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/src/modules/mock.ts",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite:esbuild",
+        "vite-plugin-use-modules",
+        "vite:import-glob",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/src/modules/nprogress.ts",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite:esbuild",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/src/modules/pinia.ts",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite:esbuild",
+        "vite-plugin-use-modules",
+        "unplugin-auto-import",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/src/modules/router.ts",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite:esbuild",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/src/modules/title.ts",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite:esbuild",
+        "vite-plugin-use-modules",
+        "unplugin-auto-import",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/src/pages/user/index.vue",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite-plugin-use-modules",
+        "vite:vue",
+        "unplugin-vue-components",
+        "unplugin-auto-import",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/src/stores/createCounter.ts",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite:esbuild",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "D:/Web/gms_forntend/src/styles/main.css",
+      "deps": [],
+      "plugins": [
+        "__load__",
+        "vite:css",
+        "vite-plugin-use-modules",
+        "vite-plugin-windicss:css",
+        "vite:css-post",
+        "vite:import-analysis"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "virtual:/vue-router/auto/route-block",
+      "deps": [],
+      "plugins": [
+        "unplugin-vue-router",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "virtual:vue-router/auto/routes",
+      "deps": [],
+      "plugins": [
+        "unplugin-vue-router",
+        "vite-plugin-use-modules",
+        "vite:import-analysis"
+      ],
+      "virtual": true
+    }
+  ],
+  "ssrModules": []
+}
